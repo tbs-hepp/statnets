@@ -1,11 +1,9 @@
 Package: statnets
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Artificial neural networks for statistical models
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Tobias Hepp
+Maintainer: Tobias Hepp <tbs.hepp@fau.de>
+Description: This package under construction contains several functions to estimate statistical models in a shallow neural network architecture. Estimation is performed via the BFGS-algorithm implemented in optim().
 Encoding: UTF-8
 LazyData: true
