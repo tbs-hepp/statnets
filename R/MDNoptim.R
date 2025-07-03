@@ -57,6 +57,8 @@ MDN.vectomat <- function(w,dim){
 
 MDN <- function(w,X,y,hidden_neurons,components,static=NULL){
 
+  y <- as.numeric(y)
+
   ##################################
   # Check for static parameters
   st <- c("alpha","mu","sigma") %in% static
@@ -96,6 +98,8 @@ MDN <- function(w,X,y,hidden_neurons,components,static=NULL){
 
 
 grMDN <- function(w,X,y,hidden_neurons,components,static=NULL){
+
+  y <- as.numeric(y)
 
   ##################################
   # Check for static parameters
